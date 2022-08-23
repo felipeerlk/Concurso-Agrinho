@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<meta>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel='stylesheet' href='css/reset.css'> 
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-barra">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" class="img-responsive" width="35px" height="35px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.embrapa.br/busca-de-publicacoes/-/publicacao/todos?">Forum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comunidade.html">Comunidade</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a target="_blank"><img src="img/carrosel/image1.jpg" class="d-block w-100"></a>
+        <div class="carousel-caption d-none d-md-block"></div>
+      </div>
+      <div class="carousel-item">
+        <video class="img-fluid" autoplay loop muted>
+          <source src="https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4" type="video/mp4" />
+        </video>
+        <div class="carousel-caption d-none d-md-block"></div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+      <div class="container">
+        <div class="row">
+
+          <h2 class="text-destaque">Em destaque</h2>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="img/destaque/forum.png" height="214px" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title">Forum</h5>
+              <p class="card-text">
+                Livros, artigos, relatórios e outros materiais.
+              </p>
+              <a href="https://www.embrapa.br/busca-de-publicacoes/-/publicacao/todos?" class="btn btn-outline-secondary">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img src="img/destaque/cultivares.jpg" height="238px" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title">Cultivares</h5>
+              <p class="card-text">
+                Catálogo de cultivares.
+              </p>
+              <a href="https://www.embrapa.br/cultivares"
+                class="btn btn-outline-secondary">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img src="img/destaque/comunidade.jpg" height="233px" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title">Comunidade</h5>
+              <p class="card-text">
+                Tire dúvidas junto com a comunidade.<br><br><br>
+                <a href="comunidade.html" class="btn btn-outline-secondary">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="inovacao">
+          <h3 class="titule-inovacao">Inovação</h3>
+    
+          <ul>
+            Interconexões no ambiente de inovação ampliam o empreendedorismo, a criação e o desenvolvimento de soluções conjuntas para o agro brasileiro. Conheça as ações da Embrapa que promovem o desenvolvimento do setor agropecuário, por meio da inovação aberta, da ampliação de negócios e do fortalecimento de startups.
+          </ul>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+
+          <h2 class="text-destaque">Notícias</h2>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="img/noticia/article (1).jfif" height="214px" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title">Patenteado bico de pulverização eletrostática</h5>
+              <p class="card-text">
+                Pesquisas mostram que o emprego da eletrostática pode reduzir com facilidade, em mais de 50%, os ingredientes utilizados
+              </p>
+              <a href="https://www.embrapa.br/busca-de-noticias/-/noticia/72820366/patenteado-bico-de-pulverizacao-eletrostatica-desenvolvido-na-embrapa-meio-ambiente" class="btn btn-outline-success" role="button" aria-pressed="true">Leia</a>
+              </input>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img src="img/noticia/article (3).jfif" height="238px" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title">Biofiltro reaproveita água doméstica para produção de alimentos e forragem</h5>
+              <p class="card-text">
+                Além de ser mais uma fonte hídrica, após passar pelo tratamento no biofiltro, a água também apresenta maior concentração de nutrientes como nitrogênio, fósforo e potássio
+              </p>
+              <a href="https://www.embrapa.br/busca-de-noticias/-/noticia/72619509/biofiltro-reaproveita-agua-domestica-para-producao-de-alimentos-e-forragem" class="btn btn-outline-success" role="button" aria-pressed="true">Leia</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img src="img/noticia/article (2).jfif" height="233px" class="card-img-top"/>
+            <div class="card-body">
+              <h5 class="card-title">Pesquisa ajuda a identificar, pelo aroma, mangas com distúrbio do colapso interno, ajudará a entender as causas do distúrbio</h5>
+              <p class="card-text">
+                entre mais de 100 compostos voláteis da manga, oito estão relacionados ao colapso do fruto
+              </p><br>
+                <a href="https://www.embrapa.br/busca-de-noticias/-/noticia/72650127/pesquisa-ajuda-a-identificar-pelo-aroma-mangas-com-disturbio-do-colapso-interno" class="btn btn-outline-success" role="button" aria-pressed="true">Leia</a>
+            </div>
+          </div>
+        </div>
+
+    <!-- super title -->
+      <section class="super-title">
+        <p>O QUE É A SUSTENTABILIDADE NA AGRICULTURA?</p>
+        <h1>
+          A agricultura sustentável é aquela que respeita o meio ambiente, colabora com a justiça social e é economicamente acessível para todo o ecossistema. Para a agricultura ser vista como sustentável, deve atender as necessidades de produção das próximas gerações e promover a qualidade de vida.
+        </h1>
+      </section>
+    <!-- /super title -->
+</body>
+
+</html>
